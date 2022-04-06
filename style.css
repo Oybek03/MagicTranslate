@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+textarea {
+  display: block;
+  resize: none;
+  box-shadow: 0px 5px 10px rgba(128, 128, 128, 0.26);
+  border: none;
+  outline: none;
+  margin-top: 20px;
+}
+select{
+  /* margin-bottom: 20px; */
+  border: none;
+  font-family: monospace;
+  width: 80px;
+}
+.label{
+  margin-bottom: 20px;
+  font-family: monospace;
+}
